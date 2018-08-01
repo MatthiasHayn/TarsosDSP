@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>tarsosdsp-examples</artifactId>
+	<name>TarsosDSP-Examples</name>
+
+	<parent>
+		<groupId>be.tarsos.dsp</groupId>
+		<artifactId>TarsosDSP</artifactId>
+		<version>2.4</version>
+	</parent>
+
+	<description></description>
+
+	<dependencies>
+		<dependency>
+			<groupId>be.tarsos.dsp</groupId>
+			<artifactId>tarsosdsp-core</artifactId>
+			<version>${parent.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>be.tarsos.dsp</groupId>
+			<artifactId>tarsosdsp-jvm</artifactId>
+			<version>${parent.version}</version>
+		</dependency>
+	
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+	</dependencies>
+
+</project>
